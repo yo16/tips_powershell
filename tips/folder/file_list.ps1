@@ -1,7 +1,7 @@
 # フォルダ内の全ファイルを操作する
 # 2020/3/8 yo16
 
-$targetDir = '../';
+$targetDir = '../../';
 
 $itemList = Get-ChildItem $targetDir;
 foreach($item in $itemList)
